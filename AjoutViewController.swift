@@ -10,17 +10,49 @@ import UIKit
 
 class AjoutViewController: UIViewController {
 
+    @IBOutlet weak var textField1: UITextField!
+    var nouvelleChoseAFaire: ChoseAFaire!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    // Catch the segue
+    
+    // Surcharge le prepareForSegue
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        switch segue.identifier {
+        
+        // Récupérer la segue1 et l'afficher
+        case "segue1"? :
+            
+                print("segue1")
+                if self.textField1.text?.utf16 > 0 {
+                    self.nouvelleChoseAFaire = ChoseAFaire(nom: self.textField1.text!)
+                }
+                
+                // Récupérer un pointeur sur la destination de la segue
+                var destination: RootViewController = segue.destinationViewController as! RootViewController
+                
+                // Ajoute l'objet à la destination et on peut recharger tous le tableView
+                var element: ChoseAFaire = nouvelleChoseAFaire
+                destination.liste1.addObject(element)
+                destination.tableView1.reloadData()
+            default:
+                print("default")
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation

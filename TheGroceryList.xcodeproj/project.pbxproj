@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B48B9F8E1C32D55800DCE5A2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B48B9F8D1C32D55800DCE5A2 /* README.md */; settings = {ASSET_TAGS = (); }; };
 		B4ECB2F71C31B40600E0096B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB2F61C31B40600E0096B /* AppDelegate.swift */; };
-		B4ECB2F91C31B40600E0096B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB2F81C31B40600E0096B /* ViewController.swift */; };
 		B4ECB2FC1C31B40600E0096B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4ECB2FA1C31B40600E0096B /* Main.storyboard */; };
 		B4ECB2FE1C31B40600E0096B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ECB2FD1C31B40600E0096B /* Assets.xcassets */; };
 		B4ECB3011C31B40600E0096B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4ECB2FF1C31B40600E0096B /* LaunchScreen.storyboard */; };
 		B4ECB30C1C31B40600E0096B /* TheGroceryListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB30B1C31B40600E0096B /* TheGroceryListTests.swift */; };
 		B4ECB3171C31B40600E0096B /* TheGroceryListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3161C31B40600E0096B /* TheGroceryListUITests.swift */; };
+		B4ECB3251C31B42A00E0096B /* ChoseAFaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3241C31B42A00E0096B /* ChoseAFaire.swift */; settings = {ASSET_TAGS = (); }; };
+		B4ECB3271C31B45100E0096B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3261C31B45100E0096B /* RootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B4ECB3291C31B48400E0096B /* AjoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3281C31B48400E0096B /* AjoutViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B48B9F8D1C32D55800DCE5A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4ECB2F31C31B40600E0096B /* TheGroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ECB2F61C31B40600E0096B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4ECB2F81C31B40600E0096B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4ECB2FB1C31B40600E0096B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4ECB2FD1C31B40600E0096B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4ECB3001C31B40600E0096B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		B4ECB3121C31B40600E0096B /* TheGroceryListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheGroceryListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ECB3161C31B40600E0096B /* TheGroceryListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGroceryListUITests.swift; sourceTree = "<group>"; };
 		B4ECB3181C31B40600E0096B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4ECB3241C31B42A00E0096B /* ChoseAFaire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoseAFaire.swift; path = ../ChoseAFaire.swift; sourceTree = "<group>"; };
+		B4ECB3261C31B45100E0096B /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = ../RootViewController.swift; sourceTree = "<group>"; };
+		B4ECB3281C31B48400E0096B /* AjoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = AjoutViewController.swift; path = ../AjoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		B4ECB2EA1C31B40600E0096B = {
 			isa = PBXGroup;
 			children = (
+				B48B9F8D1C32D55800DCE5A2 /* README.md */,
 				B4ECB2F51C31B40600E0096B /* TheGroceryList */,
 				B4ECB30A1C31B40600E0096B /* TheGroceryListTests */,
 				B4ECB3151C31B40600E0096B /* TheGroceryListUITests */,
@@ -98,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				B4ECB2F61C31B40600E0096B /* AppDelegate.swift */,
-				B4ECB2F81C31B40600E0096B /* ViewController.swift */,
+				B4ECB3281C31B48400E0096B /* AjoutViewController.swift */,
+				B4ECB3261C31B45100E0096B /* RootViewController.swift */,
+				B4ECB3241C31B42A00E0096B /* ChoseAFaire.swift */,
 				B4ECB2FA1C31B40600E0096B /* Main.storyboard */,
 				B4ECB2FD1C31B40600E0096B /* Assets.xcassets */,
 				B4ECB2FF1C31B40600E0096B /* LaunchScreen.storyboard */,
@@ -255,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4ECB2F91C31B40600E0096B /* ViewController.swift in Sources */,
+				B4ECB3251C31B42A00E0096B /* ChoseAFaire.swift in Sources */,
 				B4ECB2F71C31B40600E0096B /* AppDelegate.swift in Sources */,
+				B48B9F8E1C32D55800DCE5A2 /* README.md in Sources */,
+				B4ECB3291C31B48400E0096B /* AjoutViewController.swift in Sources */,
+				B4ECB3271C31B45100E0096B /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +495,7 @@
 				B4ECB31D1C31B40600E0096B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4ECB31E1C31B40600E0096B /* Build configuration list for PBXNativeTarget "TheGroceryListTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +504,7 @@
 				B4ECB3201C31B40600E0096B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4ECB3211C31B40600E0096B /* Build configuration list for PBXNativeTarget "TheGroceryListUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +513,7 @@
 				B4ECB3231C31B40600E0096B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
