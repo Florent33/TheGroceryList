@@ -51,7 +51,7 @@
                     <navigationItem key="navigationItem" title="Liste" id="nI0-Pd-iPz">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="UO8-hA-u8p">
                             <connections>
-                                <segue destination="HNn-ea-ePe" kind="unwind" unwindAction="retourDeSegue:" id="lZ1-8v-gcp"/>
+                                <segue destination="foH-Jf-olt" kind="push" id="2Ew-VA-trF"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -61,9 +61,8 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <exit id="HNn-ea-ePe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="627" y="289"/>
+            <point key="canvasLocation" x="626" y="289"/>
         </scene>
         <!--Ajout View Controller-->
         <scene sceneID="cil-Y6-CPA">
@@ -77,13 +76,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nb5-Ia-Amd">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nb5-Ia-Amd">
                                 <rect key="frame" x="20" y="72" width="280" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCq-bI-pkp">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCq-bI-pkp">
                                 <rect key="frame" x="84" y="110" width="152" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Add to the grocery list"/>
