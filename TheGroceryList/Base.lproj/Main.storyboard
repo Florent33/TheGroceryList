@@ -31,6 +31,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="HNn-ea-ePe" kind="unwind" unwindAction="retourDeSegue:" id="Dcc-A9-1dr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -61,6 +64,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="HNn-ea-ePe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="626" y="289"/>
         </scene>
@@ -87,7 +91,7 @@
                                 <animations/>
                                 <state key="normal" title="Add to the grocery list"/>
                                 <connections>
-                                    <segue destination="8Df-zT-M6U" kind="unwind" identifier="Segue1" unwindAction="retourDeSegue:" id="jl9-r6-RTm"/>
+                                    <segue destination="8Df-zT-M6U" kind="unwind" identifier="segue1" unwindAction="retourDeSegue:" id="4rm-NJ-Xh3"/>
                                 </connections>
                             </button>
                         </subviews>
