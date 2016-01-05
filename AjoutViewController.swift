@@ -30,7 +30,7 @@ class AjoutViewController: UIViewController {
         switch segue.identifier {
         
         // Récupérer la segue1 et l'afficher
-        case "segue1  "? :
+        case "segue1"?  :
                 print("segue1")
                 if (self.textField1.text?.isEmpty != nil) {
                     self.nouvelleChoseAFaire = ChoseAFaire(nom: self.textField1.text!)
