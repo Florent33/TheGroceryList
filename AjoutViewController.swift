@@ -14,7 +14,7 @@ class AjoutViewController: UIViewController {
     var nouvelleChoseAFaire: ChoseAFaire!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
@@ -30,18 +30,17 @@ class AjoutViewController: UIViewController {
         switch segue.identifier {
         
         // Récupérer la segue1 et l'afficher
-        case "segue1"? :
-            
+        case "segue1  "? :
                 print("segue1")
-                if self.textField1.text?.utf16 > 0 {
+                if (self.textField1.text?.isEmpty != nil) {
                     self.nouvelleChoseAFaire = ChoseAFaire(nom: self.textField1.text!)
                 }
                 
                 // Récupérer un pointeur sur la destination de la segue
-                var destination: RootViewController = segue.destinationViewController as! RootViewController
+                let destination: RootViewController = segue.destinationViewController as! RootViewController
                 
                 // Ajoute l'objet à la destination et on peut recharger tous le tableView
-                var element: ChoseAFaire = nouvelleChoseAFaire
+                let element: ChoseAFaire = nouvelleChoseAFaire
                 destination.liste1.addObject(element)
                 destination.tableView1.reloadData()
             default:
