@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B48B9F8E1C32D55800DCE5A2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B48B9F8D1C32D55800DCE5A2 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		B427E4C61C3EC9A000DDA477 /* TheGroceryList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B427E4C41C3EC9A000DDA477 /* TheGroceryList.xcdatamodeld */; };
+		B48B9F8E1C32D55800DCE5A2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B48B9F8D1C32D55800DCE5A2 /* README.md */; };
 		B4ECB2F71C31B40600E0096B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB2F61C31B40600E0096B /* AppDelegate.swift */; };
 		B4ECB2FC1C31B40600E0096B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4ECB2FA1C31B40600E0096B /* Main.storyboard */; };
 		B4ECB2FE1C31B40600E0096B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4ECB2FD1C31B40600E0096B /* Assets.xcassets */; };
 		B4ECB3011C31B40600E0096B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4ECB2FF1C31B40600E0096B /* LaunchScreen.storyboard */; };
 		B4ECB30C1C31B40600E0096B /* TheGroceryListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB30B1C31B40600E0096B /* TheGroceryListTests.swift */; };
 		B4ECB3171C31B40600E0096B /* TheGroceryListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3161C31B40600E0096B /* TheGroceryListUITests.swift */; };
-		B4ECB3251C31B42A00E0096B /* ChoseAFaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3241C31B42A00E0096B /* ChoseAFaire.swift */; settings = {ASSET_TAGS = (); }; };
-		B4ECB3271C31B45100E0096B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3261C31B45100E0096B /* RootViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		B4ECB3291C31B48400E0096B /* AjoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3281C31B48400E0096B /* AjoutViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B4ECB3251C31B42A00E0096B /* ChoseAFaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3241C31B42A00E0096B /* ChoseAFaire.swift */; };
+		B4ECB3271C31B45100E0096B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3261C31B45100E0096B /* RootViewController.swift */; };
+		B4ECB3291C31B48400E0096B /* AjoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4ECB3281C31B48400E0096B /* AjoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B427E4C51C3EC9A000DDA477 /* TheGroceryList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheGroceryList.xcdatamodel; sourceTree = "<group>"; };
 		B48B9F8D1C32D55800DCE5A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4ECB2F31C31B40600E0096B /* TheGroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4ECB2F61C31B40600E0096B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				B4ECB2FD1C31B40600E0096B /* Assets.xcassets */,
 				B4ECB2FF1C31B40600E0096B /* LaunchScreen.storyboard */,
 				B4ECB3021C31B40600E0096B /* Info.plist */,
+				B427E4C41C3EC9A000DDA477 /* TheGroceryList.xcdatamodeld */,
 			);
 			path = TheGroceryList;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4ECB3251C31B42A00E0096B /* ChoseAFaire.swift in Sources */,
+				B427E4C61C3EC9A000DDA477 /* TheGroceryList.xcdatamodeld in Sources */,
 				B4ECB2F71C31B40600E0096B /* AppDelegate.swift in Sources */,
 				B48B9F8E1C32D55800DCE5A2 /* README.md in Sources */,
 				B4ECB3291C31B48400E0096B /* AjoutViewController.swift in Sources */,
@@ -516,6 +520,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B427E4C41C3EC9A000DDA477 /* TheGroceryList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B427E4C51C3EC9A000DDA477 /* TheGroceryList.xcdatamodel */,
+			);
+			currentVersion = B427E4C51C3EC9A000DDA477 /* TheGroceryList.xcdatamodel */;
+			path = TheGroceryList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B4ECB2EB1C31B40600E0096B /* Project object */;
 }
